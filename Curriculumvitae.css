@@ -1,0 +1,43 @@
+body { 
+    width: 900px;
+    margin: auto;
+    border: 1px solid black; 
+    background-color: LightGray ;
+    font-family: "Arial", sans-serif;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+thead {
+    background-color: #666;
+    color: white;
+}
+
+tfoot {
+    background-color: #ccc;
+}
+
+h1 {
+    background-color: #666699;
+    text-align: center; /* Agregado para centrar el título */
+    padding: 10px; /* Agregado para espacio alrededor del título */
+}
+
+
+/*.libros h2{margin-top: 0px; }buscar informacion de span   /
+
+
+
+/*no tengo creado div en index
+
+div{border: blue solid 1px;}  */
+
+.col-12, .col-6, .col-4, .col-3 {float: left;}
+.col-12{width:100%;} 
+.col-6{width: 50%;}
+.col-4{width: 33.33333333%;}
+.col-3{width: 25%;}
